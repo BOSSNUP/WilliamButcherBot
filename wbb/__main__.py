@@ -105,29 +105,34 @@ home_keyboard_pm = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                text="Commands ❓", callback_data="bot_commands"
-            ),
-            InlineKeyboardButton(
-                text="Repo 🛠",
-                url="https://github.com/thehamkercat/WilliamButcherBot",
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="System Stats 🖥",
-                callback_data="stats_callback",
-            ),
-            InlineKeyboardButton(
-                text="Support 👨", url="http://t.me/WBBSupport"
-            ),
-        ],
-        [
-            InlineKeyboardButton(
                 text="Add Me To Your Group 🎉",
                 url=f"http://t.me/{BOT_USERNAME}?startgroup=new",
             )
         ],
-    ]
+        [
+            InlineKeyboardButton(
+                text="MAW TOKEN",
+                url="http://musicartistworldwide.com/home/",
+            ),
+            InlineKeyboardButton(
+                text="BUY TOKEN",
+                url="http://mawtoken.io/mawlog.php",
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="Channel", url="https://t.me/DeeCodeBots"
+            ),
+            InlineKeyboardButton(
+                text="Support 👨", url="https://t.me/kingfederation"
+            ),
+        ],        
+        [
+            InlineKeyboardButton(
+                text="Commands ❓", callback_data="bot_commands"
+            ),
+        ],
+   ]
 )
 
 home_text_pm = (
@@ -141,22 +146,34 @@ keyboard = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                text="Help ❓",
-                url=f"t.me/{BOT_USERNAME}?start=help",
+                text="Add Me To Your Group 🎉",
+                url=f"http://t.me/{BOT_USERNAME}?startgroup=new",
+            )
+        ],
+        [
+            InlineKeyboardButton(
+                text="MAW TOKEN",
+                url="http://musicartistworldwide.com/home/",
             ),
             InlineKeyboardButton(
-                text="Repo 🛠",
-                url="https://github.com/thehamkercat/WilliamButcherBot",
+                text="BUY TOKEN",
+                url="http://mawtoken.io/mawlog.php",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="System Stats 💻",
-                callback_data="stats_callback",
+                text="Channel", url="https://t.me/DeeCodeBots"
             ),
-            InlineKeyboardButton(text="Support 👨", url="t.me/WBBSupport"),
+            InlineKeyboardButton(
+                text="Support 👨", url="https://t.me/kingfederation"
+            ),
+        ],        
+        [
+            InlineKeyboardButton(
+                text="Commands ❓", callback_data="bot_commands"
+            ),
         ],
-    ]
+   ]
 )
 
 
